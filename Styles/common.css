@@ -1,0 +1,144 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;}
+
+
+
+/* navigation-wrapper styles */
+
+.navigation-wrapper {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 40px;
+    height: 70px;
+    background-color: black;
+
+    
+}
+
+.navigation-wrapper > .logo img {
+    width: 216px;
+}
+
+.navigation-wrapper > .menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #d9cc7c;   
+}
+
+.navigation-wrapper > .menu-wrapper > .menu-title {
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: -20px;
+
+}
+
+.navigation-wrapper > .menu-wrapper > .menu-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .menu-wrapper > .menu-links > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.navigation-wrapper > .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.navigation-wrapper > .buttons > .button button {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.1em;
+    background-color: #424048;
+    padding: 15px 27px 15px 27px;
+    border-style: hidden;
+    border-radius: 5%;
+}
+
+.navigation-wrapper > .buttons > .search {
+    color: #5b5964;
+    font-size: 1.7em;
+}
+
+
+
+/* content-wrapper styles */
+
+.content-wrapper {
+    padding: 50px 0px 0px 30px;
+    border-color: black;
+    box-shadow: inset -250px -250px 300px 200px #262629;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+.content-wrapper {
+    color: white;
+    background-color: #5b5964;
+}
+
+.content-wrapper > .left-column {
+    font-size: 2em;
+    margin-right: 30px;
+}
+
+
+.content-wrapper > .left-column > .content-buttons button {
+    background-color: rgb(14, 13, 13);
+    color: white;
+    border-style: none;
+    width: fit-content;
+    font-size: 2rem;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.content-wrapper > .left-column > .content-buttons > .sign-up button {
+    background-color: rgb(38, 184, 112);
+    color: black;
+}
+
+.content-wrapper > .right-column > .image img {
+    width: 600px;
+
+}
+
+
+
+/* footer styles */
+
+
+.footer-wrapper  {
+    padding-bottom: 50px;
+    color: white;
+    background-color: #424048;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.footer-wrapper > .codepen-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-wrapper > .codepen-buttons button {
+    background-color: #424048;
+    border-style: none;
+    border: #797780 2px;
+    border-color: white;
+    color: white;
+}
+
+
